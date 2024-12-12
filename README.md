@@ -6,16 +6,16 @@ the previous configuration.
 ## Usage
 ```bash
 # Show all post types, custom fields and taxonomies
-$ python wp_analyzer.py export.xml --post-types --custom-fields --taxonomies
+$ python wpanalyzer.py export.xml --post-types --custom-fields --taxonomies
 
 # Show all posts w/ content
-$ python wp_analyzer.py export.xml --show-posts=post
+$ python wpanalyzer.py export.xml --show-posts=post
 
 # Show specified number of posts w/ content
-$ python wp_analyzer.py export.xml --show-posts=post --limit=2
+$ python wpanalyzer.py export.xml --show-posts=post --limit=2
 
 # Show custom fields for specific post type
-$ python wp_analyzer.py export.xml --custom-fields --post-type=post
+$ python wpanalyzer.py export.xml --custom-fields --post-type=post
 
 ```
 
